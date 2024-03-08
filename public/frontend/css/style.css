@@ -1,0 +1,262 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    direction: rtl;
+    font-family: iransans;
+    font-size: 12px;
+}
+.nav-hover:hover {
+    transition: 0.3s;
+    background-color: #000;
+}
+.nav-hover-2:hover {
+    transition: 0.3s;
+    background-color: #e64946;
+    font-weight: bold;
+}
+.bg-black {
+    background-color: #000;
+}
+.bg-hover:hover {
+    background-color: #e64946 !important;
+}
+.bold {
+    font-weight: bold;
+}
+.logo-img {
+    max-width: 100px;
+    max-height: 100px;
+}
+.image-height {
+    height: 100px;
+}
+.image-height2 {
+    height: 160px;
+}
+.img-header {
+    width: 100%;
+    height: 150%;
+}
+.dropdown-menu {
+    right: 0;
+    top: 95%;
+    left: auto;
+    font-size: 12px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.s-wrap,
+.s-slide {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+}
+.s-wrap {
+    overflow: hidden;
+}
+.s-move {
+    position: relative;
+    bottom: 0%;
+}
+.s-slide {
+    padding: 10px;
+}
+@keyframes slidev {
+    0% {
+        bottom: -30%;
+    }
+    15% {
+        bottom: -30%;
+    }
+    20% {
+        bottom: 85%;
+    }
+    35% {
+        bottom: 85%;
+    }
+    40% {
+        bottom: 195%;
+    }
+    55% {
+        bottom: 195%;
+    }
+    60% {
+        bottom: 310%;
+    }
+    75% {
+        bottom: 310%;
+    }
+    80% {
+        bottom: 425%;
+    }
+    95% {
+        bottom: 425%;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+.s-move {
+    animation: slidev linear 25s infinite;
+}
+.s-move:hover {
+    animation-play-state: paused;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 70%;
+}
+.carousel-indicators li.active {
+    background-color: #e64946;
+}
+.opacity-8 {
+    opacity: 80%;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-13 {
+    font-size: 13px;
+}
+.font-10 {
+    font-size: 10px;
+}
+a {
+    color: #000;
+}
+.border-bottom {
+    border-bottom-width: 3px !important;
+}
+.border-top {
+    border-top-width: 3px !important;
+}
+.border-bottom.b1 {
+    border-bottom-width: 1px !important;
+}
+.border-top.b1 {
+    border-top-width: 1px !important;
+}
+.border-light {
+    border-color: #ebebeb !important;
+}
+.bg-light {
+    background-color: #f5f5f5 !important;
+}
+.search-btn {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.max-width {
+    max-width: 1360px !important;
+}
+.search-input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid #aaa;
+}
+
+.text-hover:hover {
+    transition: 0.3;
+    color: #e64946 !important;
+}
+h5,
+h4 {
+    font-size: 18px;
+}
+.mh-back-to-top {
+    display: none;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    padding: 5px 8px 8px;
+    color: #fff;
+    background: #e64946;
+    z-index: 999;
+}
+.nav-tabs > .nav-item {
+    width: 33.3%;
+}
+.placeholder::placeholder {
+    color: #fff;
+}
+.media-icon > i,
+.nav-tabs > .nav-item > .nav-link {
+    font-size: 25px;
+    border: 0;
+    text-align: center;
+}
+.nav.nav-tabs {
+    padding: 0;
+}
+.nav-tabs > .nav-item > .nav-link.active {
+    background-color: #e64946;
+    color: #fff;
+}
+.page-item > .page-link {
+    background-color: #eeeeee !important;
+    color: #000;
+}
+.page-item.active > .page-link {
+    background-color: #e64946 !important;
+    border-color: #e64946;
+}
+
+#up {
+    cursor: pointer;
+    transition: 0.5s;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 800;
+    width: 40px;
+    height: 40px;
+    background-color: #e64946;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+#up i {
+    transition: 0.5s;
+    padding: 15% 30%;
+    font-size: 25px;
+    color: #fff;
+}
+#up.hide {
+    transition: 0.5s;
+    opacity: 0;
+}
+
+/*start comment*/
+.report-comment {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.4rem;
+    background-color: #f7f7f7;
+    border-radius: 0.25rem;
+}
+
+.report-comment-header {
+    border-bottom: 1px solid #efefef;
+    padding: 0rem 0rem 0.4rem 0rem;
+    line-height: 1.5rem;
+}
+
+.report-comment-date {
+    font-size: 0.7rem;
+    border-radius: 0.25rem;
+    color: #999999;
+}
+
+.report-comment-title {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.report-comment-body {
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+}
